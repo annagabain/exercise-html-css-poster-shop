@@ -6,7 +6,8 @@
 
 body {
     margin: auto;
-    /* padding-top: 50px; */
+    top: 0;
+    left: 0;
     background-color: black;
 }
 
@@ -14,11 +15,21 @@ header {
     background-color: var(--green);
     font-family: "Roboto", sans-serif;
     text-align: center;
-    /* position: fixed;
-    margin-bottom: 50px;
-    top: 0;
-    left: 0;
-    width: 100%; */
+    position: relative;
+    /* height: vh; */
+    /* gap: 0px;
+    opacity: 0px; */
+    width: 100%;
+}
+header h1 {
+    margin-top: 0;
+
+    /* will be replaced with the burger menu */
+    padding-top: 50px;
+}
+
+header img {
+  margin-bottom: -4px;
 }
 
 h2,
