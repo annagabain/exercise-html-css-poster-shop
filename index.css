@@ -1,10 +1,27 @@
 /* roboto till h, fira sans till p */
 
-header {
-    background-color: brown;
-    font-family: "Roboto", sans-serif;
+:root {
+    --green: #3DE07E;
 }
 
+body {
+    margin: auto;
+    /* padding-top: 50px; */
+    background-color: black;
+}
+
+header {
+    background-color: var(--green);
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    /* position: fixed;
+    margin-bottom: 50px;
+    top: 0;
+    left: 0;
+    width: 100%; */
+}
+
+h2,
 p {
     font-family: "Fira Sans", sans-serif;
 }
@@ -17,6 +34,7 @@ p {
 
 }
 
+
 .three-column-container {
     /* background-color: blue; */
     display: grid;
@@ -26,8 +44,10 @@ p {
 
 
 }
-.three-column-container card {
-    background-color: blue;
+
+.three-column-container .card {
+    /* background-color: blue; */
+    color: white;
 
 }
 
@@ -35,11 +55,18 @@ p {
     /* background-color: green; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-column-gap: 20px;
+    column-gap: 20px;
 
 }
-.two-column-container card {
-    background-color: green;
+
+.two-column-container .card {
+    /* background-color: green; */
+    background-color: white;
+
+}
+
+.card img {
+    width: 100%;
 }
 
 footer {
