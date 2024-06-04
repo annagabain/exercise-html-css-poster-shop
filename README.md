@@ -15,3 +15,5 @@ You can find all images in the asset folder.
 ![screens](./screens.png)
 
 ![screens2](./check-out.png)
+
+[Figma-skiss](https://www.figma.com/design/ApkqGdPVOlTaKVX6r12bGv/Poster-Shop?node-id=0-1&t=z9UfUacDEaOYwPWV-1)
