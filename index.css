@@ -86,14 +86,37 @@ p {
     width: 100%;
 }
 
-.card button {
+button {
     background-color: #E83F57;
     color: white;
     border: none;
+    border-radius: 8px;
     padding: 10px;
     margin: 4px 2px;
-    border-radius: 8px;
 }
+
+.checkout-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.shopping-card-checkout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    color: white;
+}
+
+.shopping-card-checkout section:nth-child(3) {
+  text-align: right;
+}
+.shopping-card-checkout section p:nth-child(1) {
+    background-color: #E83F57;
+
+  }
+.shopping-card-checkout section p:nth-child(4) {
+    font-weight: bold;
+  }
 
 footer {
     background-color: yellowgreen;
